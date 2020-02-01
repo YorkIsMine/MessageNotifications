@@ -1,4 +1,4 @@
-package com.yorkismine.fileloaderapp;
+package com.yorkismine.fileloaderapp.utils;
 
 import android.net.Uri;
 import android.os.Build;
