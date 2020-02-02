@@ -58,11 +58,11 @@ class MainActivity : AppCompatActivity(), MainContract.View{
     }
 
     override fun showResult() {
-        Toast.makeText(applicationContext, "Done!", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Done!", Toast.LENGTH_LONG).show()
     }
 
     override fun showError() {
-        Toast.makeText(applicationContext, "Error", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Error", Toast.LENGTH_LONG).show()
     }
 
     override fun getPreferences(): SharedPreferences {
